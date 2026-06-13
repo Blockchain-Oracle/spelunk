@@ -1,0 +1,30 @@
+[project]
+name = "spelunk-core"
+version = "0.0.0"
+description = "Spelunk agent core — splunklib.ai pipeline (SPL -> run -> classify -> forecast -> narrate). Importable and CI-testable; vendored into the Splunk app's bin/ at package time."
+requires-python = ">=3.9"
+dependencies = [
+    # splunk-sdk provides splunklib.ai (the rewarded Python SDK AI surface).
+    "splunk-sdk>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/spelunk_core"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

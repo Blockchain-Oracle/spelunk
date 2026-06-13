@@ -1,0 +1,4 @@
+packages:
+  - "apps/cockpit"
+  - "apps/landing"
+  - "packages/ui-contract"

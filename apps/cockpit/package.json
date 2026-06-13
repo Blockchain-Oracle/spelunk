@@ -1,0 +1,26 @@
+{
+  "name": "@spelunk/cockpit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Spelunk generative-UI chat cockpit — React SPA mounted inside Splunk Web.",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@spelunk/ui-contract": "workspace:*"
+  },
+  "devDependencies": {
+    "@splunk/react-ui": "^5.11.0",
+    "@splunk/react-visualizations": "^26.4.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.7.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

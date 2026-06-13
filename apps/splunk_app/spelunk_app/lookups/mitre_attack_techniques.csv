@@ -1,0 +1,8 @@
+technique_id,technique_name,tactic_id,tactic_name
+T1078,Valid Accounts,TA0001,Initial Access
+T1110,Brute Force,TA0006,Credential Access
+T1021,Remote Services,TA0008,Lateral Movement
+T1059,Command and Scripting Interpreter,TA0002,Execution
+T1548,Abuse Elevation Control Mechanism,TA0004,Privilege Escalation
+T1071,Application Layer Protocol,TA0011,Command and Control
+T1567,Exfiltration Over Web Service,TA0010,Exfiltration

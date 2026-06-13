@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.pnpm-store/
+dist/
+.next/
+out/
+*.tsbuildinfo
+
+# Build artifacts
+*.tgz
+apps/splunk_app/spelunk_app/appserver/static/spelunk/*.js
+!apps/splunk_app/spelunk_app/appserver/static/spelunk/.gitkeep
+
+# Secrets / local config
+.env
+.env.*
+local/
+*.local.conf
+passwords.conf
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

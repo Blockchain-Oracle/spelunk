@@ -1,0 +1,14 @@
+{
+  "name": "spelunk",
+  "private": true,
+  "description": "Agentic SOC copilot — native Splunk app with a generative-UI chat cockpit",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "build:cockpit": "pnpm --filter @spelunk/cockpit build",
+    "build:landing": "pnpm --filter @spelunk/landing build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

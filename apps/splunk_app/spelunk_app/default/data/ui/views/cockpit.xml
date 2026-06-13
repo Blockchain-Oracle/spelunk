@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spelunk cockpit — mounts the React generative-UI SPA built from apps/cockpit/
+  into Splunk Web. Same proven pattern as the archived SplunkGate SUIT views:
+  a <view> with script + stylesheet attributes and an HTML module mount div.
+  The built bundle lands at appserver/static/spelunk/cockpit.js.
+-->
+<view template="dashboards/template.dashboard.html"
+      stylesheet="spelunk/cockpit.css"
+      script="spelunk/cockpit.js">
+    <label>Spelunk Cockpit</label>
+    <description>Ask security questions in natural language. The agent generates SPL, runs it, classifies threats against MITRE, forecasts escalation, and drafts a triage note — rendered as interactive components.</description>
+    <module name="HTML">
+        <param name="html"><![CDATA[
+            <div id="spelunk-cockpit"></div>
+        ]]></param>
+    </module>
+</view>

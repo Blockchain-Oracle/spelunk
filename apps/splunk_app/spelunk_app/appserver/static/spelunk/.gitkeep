@@ -1,0 +1,2 @@
+# Built cockpit bundle (cockpit.js / cockpit.css) lands here from apps/cockpit webpack.
+# The bundle itself is git-ignored; this keeps the directory in the tree.

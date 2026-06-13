@@ -1,0 +1,8 @@
+/* Spelunk cockpit design tokens. Copied verbatim into the app static dir at
+   build time (referenced by the view stylesheet attr, not inlined into JS).
+   INTENT (phase-4): real token set, aligned with the landing design language. */
+:root {
+  --spelunk-bg: #0b0c0e;
+  --spelunk-fg: #e6e8eb;
+  --spelunk-accent: #00b4d8;
+}

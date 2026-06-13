@@ -1,0 +1,17 @@
+{
+  "info": {
+    "title": "Spelunk",
+    "id": {
+      "group": null,
+      "name": "spelunk_app",
+      "version": "0.0.0"
+    },
+    "author": [{ "name": "Blockchain-Oracle" }],
+    "description": "Agentic SOC copilot — native Splunk app with a generative-UI chat cockpit.",
+    "classification": { "intendedAudience": "Security", "categories": ["Security, Fraud & Compliance"] }
+  },
+  "dependencies": null,
+  "incompatible": null,
+  "platformRequirements": null,
+  "schemaVersion": "2.0.0"
+}
